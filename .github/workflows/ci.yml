@@ -25,4 +25,8 @@ jobs:
          run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
           pytest
+          
+        - name: Run Hello World script
+          run: python app/hello.py
+          
   
